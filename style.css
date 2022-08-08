@@ -1,0 +1,538 @@
+/* reset code & common code start here*/
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style-type: none;
+	outline: 0;
+	font-weight: 500;
+	
+
+}
+html{
+	scroll-behavior: smooth;
+	background-color: #000000;
+	/* font-family: 'Italianno', cursive; */
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
+	color: #fff;
+}
+/* reset code & common code end here*/
+
+body{
+	width: 100%;
+	max-width: 100%;
+	
+} 
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+/* header section start here */
+.header-section{
+	background-image: url(./images/BD-en-20211020-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	position: relative;
+	border-bottom: 8px solid #222222;
+}
+.header-section::before{
+	content: "";
+	width: 100%;
+	height: 100%;
+	background-color:rgba(0, 0, 0, 0.534);
+	position:absolute;
+}
+.top-header{
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 20px;
+	margin: 0 60px;
+
+}
+.logo{
+	display: contents;
+}
+.logo img{
+	width: 10%;
+}
+.sign-btn{
+	padding: 10px 15px;
+    border: 0;
+    background-color: red;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+	border-radius: 3px;
+}
+.top-section{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	text-align: center;
+	transform: translate(-50%, -50%);
+}
+.heading-text{
+	font-size: 50px;
+	font-weight: 500;
+}
+.sub-header{
+	font-size: 25px;
+	margin-top: 15px;
+	font-weight: 400;
+	font-family: 'Roboto', sans-serif;
+}
+.email-header{
+	font-size: 18px;
+	font-weight: 400;
+}
+.email-form{
+	padding-top: 20px;
+	
+}
+.email-info{
+	padding-top: 15px;
+	display: flex;
+	justify-content: center;
+	
+	
+}
+.email-info input{
+	width: 65%;
+	height: 60px;
+	padding-left: 10px;
+}
+.started-btn{
+	padding: 0px 30px;
+    font-size: 20px;
+    font-weight: 500;
+    background: red;
+    color: white;
+	border: 0;
+	cursor: pointer;
+}
+/* header section end here */
+
+.bottom-shadow{
+	border-bottom: 8px solid #222222;
+
+}
+/* enjoy tv start here */
+.enjoy-tv-section{
+	padding: 5rem 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+.enjoy-Heading-text{
+	font-size: 50px;
+	font-weight: 500;
+	margin-bottom: 10px;
+
+}
+.enjoy-subText{
+	font-weight: 400;
+}
+
+.enjoy-tv-text{
+	width: 50%;
+	padding: 1rem;
+}
+.animation-video{
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1rem;
+}
+.video-png img{
+	width: 100%;	
+}
+/* enjoy tv end here */
+/* download start here */
+
+.dowload-section{
+	padding: 5rem 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.mobile-img{
+	width: 100%;
+}
+.dowload-img{
+	width: 50%;
+	padding: 1rem;
+}
+.download-header{
+	font-size: 50px;
+	font-weight: 500;
+	margin-bottom: 10px;
+}
+.download-subheader{
+	font-weight: 400;
+}
+.download-text{
+	width: 50%;
+	padding: 1rem;
+}
+/* download end here */
+
+/* watch div start here */
+.watch-div{
+	width: 60%;
+	padding: 5rem 5rem;
+}
+.watch-header{
+	font-size: 50px;
+	font-weight: 500;
+	margin-bottom: 5px;
+}
+.watch-subheader{
+	font-weight: 400;
+}
+/* watch div end here */
+/* kids section start here */
+.kids-section{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 5rem 0;
+}
+.kids-img{
+	width: 50%;
+}
+.kidsImg{
+	width: 100%;
+}
+.kids-text{
+	width: 50%;
+}
+.kids-heading{
+	font-size: 45px;
+	font-weight: 500;
+	margin-bottom: 10px;
+}
+.kids-pera{
+	font-weight: 400;
+}
+/* kids section end here */
+/* faq start here */
+.faq-section{
+	padding: 5rem 0;
+}
+.faq-header{
+	font-size: 45px;
+	font-weight: 500;
+	text-align: center;
+}
+.faq-list{
+	margin-top: 50px;
+	text-align: center;
+}
+.faq-quection{
+	font-size: 30px;
+	padding: 1.5rem;
+	background-color: #303030;
+	color: #fff;
+	border: 0;
+	cursor: pointer;
+	font-size: 40px;
+	margin-bottom: 10px;
+}
+.fa-plus{
+	margin-left: 400px;
+}
+#faq-ans, #faq-ans2, #faq-ans3, #faq-ans4, #faq-ans5{
+	width: 57%;
+	text-align: justify;
+	background-color:  #303030;
+	
+	padding: 2rem 2rem;
+	display: inline-block;
+	font-weight: 400;
+	line-height: 25px;
+	margin-bottom: 5px;
+}
+.hidden{
+	display: none !important;
+}
+
+.bottom-form{
+	text-align: center;
+	margin-top: 100px;
+}
+.bottom-mail {
+    width: 40% !important;
+    height: 60px;
+    padding-left: 10px;
+}
+
+
+/* faq end here */
+/* footer start here */
+.footer-section{
+	padding: 3rem 0;
+}
+.footer-style{
+	margin-top: 10px;
+	margin-bottom: 30px;
+	display: flex;
+	justify-content: space-between;
+}
+.li-list{
+	padding-top: 20px;
+	
+}
+.li-list a{
+	color: gray;
+	font-weight: 100;
+	font-size: 15px;
+	
+}
+.li-list a:hover{
+	text-decoration: underline;
+	
+}
+.small-text{
+	color: gray;
+	font-weight: 100;
+	font-size: 15px;
+}
+.copy-right{
+	color: #fff;
+	font-weight: 100;
+	font-size: 13px;
+	text-align: center;
+	display: block;
+	padding: 1rem 0;
+}
+/* footer end here */
+
+/* responsive start here */
+
+@media (max-width:992px) {
+	.header-section{
+		height: 100vh;
+	}
+	.logo img {
+		width: 15%;
+	}
+	.heading-text {
+		font-size: 40px;
+		font-weight: 500;
+	}
+	.top-section {
+		top: 40%;
+		left: 38%;
+		transform: translate(-25%, -30%);
+	}
+	
+	.email-header {
+		font-size: 15px;
+	}
+	.started-btn {
+		font-size: 15px;
+		font-weight: 600;
+		
+	}
+	.enjoy-tv-section{
+		display: block;
+	}
+	.enjoy-tv-text{
+		width: 100%;
+		padding: 1rem;
+		text-align: center;
+	}
+	.animation-video{
+		width: 100%;
+		padding: 1rem;
+	}
+	.dowload-section{
+		display: block;
+		flex-direction: column-reverse;
+	}
+	.dowload-img{
+		width: 100%;
+	}
+	.download-text{
+		width: 100%;
+		text-align: center;
+	}
+	.watch-div{
+		width: 100%;
+		padding: 5rem 5rem;
+	}
+	.kids-section{
+		display: block;
+	}
+	.kids-img{
+		width: 100%;
+	}
+	.kids-text{
+		width: 100%;
+		text-align: center;
+	}
+	#faq-ans, #faq-ans2, #faq-ans3, #faq-ans4, #faq-ans5 {
+		width: 78%;
+}
+@media (max-width:768PX) {
+	.header-section{
+		height: 100vh;
+	}
+	.logo img {
+		width: 30%;
+	}
+	.top-section {
+		position: absolute;
+		top: 65%;
+		left: 20%;
+		text-align: center;
+		transform: translate(-10%, -50%);
+	}
+	.email-header {
+		font-size: 20px;
+	}
+	.email-info input {
+		width: 70%;
+		height: 70px;
+	}
+	.fa-plus {
+		margin-left: 164px;
+	}
+	#faq-ans, #faq-ans2, #faq-ans3, #faq-ans4, #faq-ans5 {
+		width: 70%;
+}
+
+}
+@media (max-width:600px) {
+	.header-section{
+		height: 100vh;
+	}
+	.logo img {
+		width: 25%;
+	}
+	.top-header {
+		margin: 0 10px;
+	}
+
+	.top-section {
+		position: absolute;
+		 top: 170px; 
+		left: 0;
+		text-align: center;
+		transform: translate(0, 0);
+	}
+	.email-header {
+		font-size: 20px;
+	}
+	.email-info input {
+		width: 50%;
+		height: 60px;
+		padding-left: 10px;
+	}
+	.bottom-shadow{
+		padding: 3rem 0;
+		
+	}
+	.download-header{
+		font-size: 40px;
+	}
+	.watch-div{
+		width: 100%;
+		padding: 1rem;
+	}
+	.kids-heading{
+		font-size: 35px;
+	}
+	.kids-pera{
+		font-size: 22px;
+
+	}
+	.faq-header {
+		font-size: 30px;
+		font-weight: 600;
+	}
+	.fa-plus {
+		margin-left: 48px;
+	}
+	.footer-style{
+		display: block;
+		
+		
+	}
+
+}
+@media (max-width:400px) {
+	.header-section{
+		height: 100vh;
+	}
+	.logo img {
+		width: 39%;
+	}
+	.top-header {
+		margin: 0 10px;
+	}
+	.top-section {
+		position: absolute;
+		 top: 150px; 
+		left: 0;
+		text-align: center;
+		transform: translate(0, 0);
+	}
+	.heading-text {
+		font-size: 25px;
+		
+	}
+	.sub-header {
+		font-size: 20px;
+	}
+	.email-header {
+		font-size: 20px;
+	}
+	.email-info input {
+		width: 80%;
+		height: 50px;
+		padding-left: 10px;
+		margin-top: 20px;
+	}
+	.email-info{
+		flex-wrap: wrap;
+	}
+	.started-btn{
+			margin-top: 20px;
+			padding: 15px;
+			border-radius: 5px;
+	
+	}
+	.faq-quection{
+		font-size: 30px;
+		padding: 10px;
+		font-size: 30px;
+
+	}
+	.fa-plus {
+		margin-left: 50px;
+	}
+	#faq-ans, #faq-ans2, #faq-ans3, #faq-ans4, #faq-ans5 {
+		width: 100%;
+		padding: 1rem;
+		display: block;
+		font-weight: 400;
+		line-height: 20px;
+	}
+	.faq-section {
+		padding: 3rem 0;
+	}
+
+}
+
+}
+/* responsive end here */
